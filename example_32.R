@@ -18,7 +18,7 @@ folder_name <- paste0("example_", example_no)
 is_testing <- is_on_ci()
 if (is_testing) {
   n_phylogenies <- 2
-  n_taxa<- 3
+  n_taxa <- 3
 }
 
 # Create simulation function
